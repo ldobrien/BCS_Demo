@@ -1,9 +1,9 @@
 import './App.css';
-import Counter from './components/Counter'
+import PathfindingVisualizer from './components/PathfindingVisualizer'
 
 function App() {
   return (
-    <Counter/>
+    <PathfindingVisualizer/>
   );
 }
 

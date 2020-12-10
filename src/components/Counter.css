@@ -1,24 +1,3 @@
-.limegreen{
-    background-color: lime;
-    width: 200px;
-    margin: auto;
-    text-align: center;
-}
-
-.container{
-    width: 90%;
-    height: 200px;
-    background: orange;
-    margin: auto;
-    padding: 10px;
-}
-
-.sidebyside{
-    display: inline-block;
-    /* float: left; */
-    width: 25%
-}
-
-.image{
-    width: 100%
+.counter {
+  font-size: 50px;
 }

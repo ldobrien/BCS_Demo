@@ -1,13 +1,11 @@
 import React, {Component} from 'react';
+import './Counter.css'
 
 class DogDetails extends Component {
-    constructor(props){
-        super(props);
-    }
-
     render() {
-      return <div>
-        <img src={this.props.photo} />
+      return <div className="sidebyside" >
+          <p>{this.props.name}</p>
+        <img className="image" src={this.props.photo} />
       </div>
     }
 }

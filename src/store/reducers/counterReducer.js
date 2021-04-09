@@ -1,7 +1,9 @@
 import initialState from './initialState'
 
 export const updateCount = (state, action) => {
-    return state
+    // action looks like this: {type: "ADD_TO_COUNTER", counter: 1}
+    // state looks like this: 0
+    return state + action.counter
 }
 
 const counterReducer = (state = initialState.counter, action) => {

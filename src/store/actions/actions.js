@@ -1,5 +1,5 @@
 export const addToCounter = (counter) => {
-    return () => {
+    return (dispatch, getState) => {
         dispatch({
             type: 'ADD_TO_COUNTER',
             counter: counter,
@@ -8,7 +8,7 @@ export const addToCounter = (counter) => {
 }
 
 export const addToPuppies = (puppy) => {
-    return () => {
+    return (dispatch, getState) => {
         dispatch({
             type: 'ADD_TO_PUPPY',
             puppy: puppy,

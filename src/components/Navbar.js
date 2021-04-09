@@ -8,13 +8,10 @@ class NavbarComponent extends Component {
       <div className="App">
         <Navbar className="cyan lighten-3" alignLinks="right">
           <NavLink className="black-text" to="/">
-            Home
+            Dogs
           </NavLink>
-          <NavLink className="black-text" to="/page1">
-            Page1
-          </NavLink>
-          <NavLink className="black-text" to="/page2">
-            Page2
+          <NavLink className="black-text" to="/counter">
+            Counter
           </NavLink>
         </Navbar>
       </div>
